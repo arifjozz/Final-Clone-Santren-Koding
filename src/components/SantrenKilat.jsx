@@ -25,7 +25,7 @@ export default class SantrenKilat extends Component {
         <br />
         <div my='3' style={{backgroundColor: '#fafafa',boxSizing : 'border-box', borderTop: '1px solid #e7e7e7'}}>
          <br />
-          <h3 style={{ textAlign: 'center' }}>Daftar Santren Kilat Koding</h3>
+          <h3 style={{ textAlign: 'center' ,marginTop:'5px' }}  >Daftar Santren Kilat Koding</h3>
           <br />
           <Container>
             <Row>
@@ -34,7 +34,7 @@ export default class SantrenKilat extends Component {
                   <CardImg
                     top
                     width="100%"
-                    src="https://lh5.googleusercontent.com/Nw8x_CE9s4N8WGggkhxit5nHdo8j03kr0daRbRTRhduOtJzwmaw3h-iR0T4iBiXrEyQqN-q_VA=w3572"
+                    src="https://lh5.googleusercontent.com/e6ixy5iFrGuPwlZFn0oU0vPgqMT9zPKdmswiBbZJEVpSbH6L2gVlcKAKFAoz7n31T45ZsSx8tQ=w1191"
                     alt="Card image cap"
                   />
                   <CardBody>

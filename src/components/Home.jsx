@@ -18,6 +18,7 @@ import {
   CardBody
 } from 'reactstrap';
 import { Jumbotron, Container } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
   render() {
@@ -150,9 +151,9 @@ class Home extends Component {
             </Col>
           </Row>
         </Container>
-        <Button outline color="success" className="my-4">
+       <Link to='/kajiankoding'><Button outline color="success" className="my-4">
           Lihat Seluruh Kajian Koding
-        </Button>
+        </Button></Link> 
 
         <div className="sanlat-body" style={{ borderTop: '1px solid #e7e7e7' }}>
           <br />
@@ -198,10 +199,10 @@ class Home extends Component {
             </Row>
           </Container>
         </div>
-        <Button outline color="success" className="my-4">
+        <Link to='/santrenkilat'><Button outline color="success" className="my-4">
           Lihat Seluruh Santren Kilat
         </Button>
-
+        </Link>
         <div className="sanl-body" style={{ borderTop: '1px solid #e7e7e7' }}>
           <br />
           <div className="container">
@@ -300,10 +301,11 @@ class Home extends Component {
             </div>
           </div>
         </div>
-
+                  
+        <Link to='/mondok'>
         <button className="btn btn-outline-success my-4" type="submit">
           Lihat Selengkapnya
-        </button>
+        </button></Link>
 
         <div className="sanl-body" style={{ borderTop: '1px solid #e7e7e7' }}>
           <br />

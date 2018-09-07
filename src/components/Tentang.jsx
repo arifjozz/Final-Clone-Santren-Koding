@@ -10,13 +10,13 @@ export default class Tentang extends Component {
           <br/>
           <br/>
           <br/>
-         <center> <h3 className="my-1">Tentang Santren Koding <br/>
+         <center> <h3 style={{marginTop:'5px'}}>Tentang Santren Koding <br/>
           <br/>
           </h3></center>
           <div id="pelatihan" class="container">
           <div class="row">
           <div class="col-12">
-          <center><img height="1000px" className="my-1" src="http://i63.tinypic.com/2i7qt14.jpg" alt="Card image cap"/></center>
+          <center><img height="1000px" className="" src="http://i63.tinypic.com/2i7qt14.jpg" alt="Card image cap"/></center>
           </div></div><br/><br/>
           </div>
     
